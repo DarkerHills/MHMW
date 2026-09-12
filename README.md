@@ -27,10 +27,13 @@ src/components/mhmw/     Hero, HeroBackground, Nav, EmailCapture, Sidebar, Avata
 
 The Figma MCP session that built this hit Figma's asset-download rate limit
 and the build sandbox's egress policy blocked fetching `www.figma.com`
-directly, so the real exported logo, star/check icons, reviewer photos, and
-hero photo couldn't be pulled in. Hand-authored replacements are used
-instead — see the comments in `icons.tsx`, `Avatar.tsx`, and
-`HeroBackground.tsx`. Swap in the real exports when available.
+directly, so the real exported logo, star/check icons, and reviewer photos
+couldn't be pulled in. Hand-authored replacements are used instead — see the
+comments in `icons.tsx` and `Avatar.tsx`. Swap in the real exports when
+available.
+
+The hero photo (`public/hero.jpg`) *is* the real Figma export — supplied
+directly and resized/compressed for web delivery.
 
 Likewise, the source spec's display face (Satoshi) isn't distributable via
 `next/font/google`; Inter is used as a same-family substitute at heavy
