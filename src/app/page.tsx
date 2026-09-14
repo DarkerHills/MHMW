@@ -27,7 +27,7 @@ export default function MyHouseMyWayPage() {
                     width that happens to wrap here — that window was a single
                     CSS pixel wide and would flip with any font-metric variance. */}
                 Find a house that
-                <br className="max-sm:hidden" /> suits the ways you live
+                <br className="max-sm:hidden" /> suits the way you live
               </h1>
               <div className="mhmw-animate-in w-full" style={{ animationDelay: "260ms" }}>
                 <EmailCapture />

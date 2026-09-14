@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "My House My Way — find a house that suits the ways you live",
+  title: "My House My Way — find a house that suits the way you live",
   description:
     "Search homes by city, address, school or ZIP — browse verified listings built around the way you actually live.",
 };
